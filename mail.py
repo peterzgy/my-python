@@ -8,14 +8,14 @@ def mailzou(subjectbody):
          file_object.close( )
     
     contents = contentsbody
-    yag = yagmail.SMTP(user = 'zouguoyin@shbihu.com', password = 'qaoAndWJDPfyB6ni', host = 'smtp.exmail.qq.com')
+    yag = yagmail.SMTP(user = '#####@###bihu.com', password = '####JDPfyB6ni', host = 'smtp.exmail.qq.com')
     tolist=["995637339@qq.com"]
     yag.send(to =tolist, subject = subjectbody, contents = contentsbody)
 if __name__=='__main__':
     mailzou()
-#set from=zouguoyin@shbihu.com
+#set from=############hu.com
 #set smtp=smtp.exmail.qq.com
-#set smtp-auth-user=zouguoyin@shbihu.com
-#set smtp-auth-password=2k3NrnJMFNivxJAx
+#set smtp-auth-user=###########bihu.com
+#set smtp-auth-password=2#########MFNivxJAx
 #set smtp-auth=login
 
