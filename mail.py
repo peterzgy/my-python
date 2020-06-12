@@ -1,7 +1,7 @@
 #!/usr/bin/python3 
 import yagmail
 def mailzou(subjectbody):
-    file_object = open("./aa.html")
+    file_object = open("/home/logs/package.log")
     try:
          contentsbody = file_object.read()
     finally:
