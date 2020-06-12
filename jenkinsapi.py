@@ -7,7 +7,7 @@ def  jenkins_get_server():
     print("start to get")
     jenkins_server_url = "http://jenkins.test.ebsfw.com/jenkins" 
     user_id = "admin"
-    api_token = "Jenkins@ebs#123"
+    api_token = "########"    #就是登录密码
     server=jenkins.Jenkins(jenkins_server_url,username=user_id,password=api_token)
     return server
 
