@@ -1,4 +1,6 @@
 #!/usr/bin/python3 
+#coding=utf-8
+#author:zouguoyin
 import yagmail
 def mailzou(subjectbody):
     file_object = open("/home/logs/package.log")
